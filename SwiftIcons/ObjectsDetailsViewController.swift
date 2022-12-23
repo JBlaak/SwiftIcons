@@ -41,7 +41,7 @@ class ObjectsDetailsViewController: UIViewController {
         let font1 = UIFont(name: "AppleSDGothicNeo-Bold", size: 16)
         let font2 = UIFont(name: "AppleSDGothicNeo-Thin", size: 12)
 
-        let attributes = [NSAttributedStringKey.font : font!, NSAttributedStringKey.foregroundColor: textColor]
+        let attributes = [NSAttributedString.Key.font : font!, NSAttributedString.Key.foregroundColor: textColor]
         
         navigationController?.navigationBar.titleTextAttributes = attributes
         navigationItem.title = objects[index!]

@@ -35,13 +35,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let font = UIFont(name: "AppleSDGothicNeo-Bold", size: 10)
         
         let attributesNormal = [
-            NSAttributedStringKey.foregroundColor : colorNormal,
-            NSAttributedStringKey.font : font!
+            NSAttributedString.Key.foregroundColor : colorNormal,
+            NSAttributedString.Key.font : font!
         ]
         
         let attributesSelected = [
-            NSAttributedStringKey.foregroundColor : colorSelected,
-            NSAttributedStringKey.font : font!
+            NSAttributedString.Key.foregroundColor : colorSelected,
+            NSAttributedString.Key.font : font!
         ]
         
         UITabBarItem.appearance().setTitleTextAttributes(attributesNormal, for: .normal)
